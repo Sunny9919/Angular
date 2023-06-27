@@ -1,0 +1,4 @@
+I am going to create the Angular Project in my D directory. So, change the directory location to D in the command prompt by typing D:
+In order to create a project using Angular CLI, you need to use the ng new project-name command. I am going to give the project name as MyFirstAngularApp. So type the command as ng new MyFirstAngularApp
+In order to compile the project, you need to use the ng serve command
+Instead of using the ng serve command, you can also use the ng serve -o command which will run the project automatically using your default browser.
