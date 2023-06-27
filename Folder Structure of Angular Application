@@ -1,0 +1,24 @@
+node_modules Folder:
+This folder contains the packages (folders of the packages) which are installed into your application when you created a project in angular. 
+If you installed any third-party packages then also their folders are going to be stored within this node_modules folder.
+
+src Folder:
+This is the source folder of our angular application. That means this is the place where we need to put all our application source code. 
+So, every component, service class, modules, everything we need to put in this folder only. Whenever we create an angular project, by default the angular framework creates lots of files folder within the src folder.
+
+app Folder:
+This is the application folder. Whenever you want to create any component, service, or module, you need to create it within this app folder.
+
+index.html:
+This HTML file contains HTML code with the head and body section.
+
+main.ts file:
+This is the entry point for our angular application. If you ever worked with programming languages like Java or C or C#, then you can compare this with the main() method of such application.
+
+package-lock.json:
+The package-lock.json is automatically generated for those operations where npm modifies either the node_modules tree or package.json. 
+
+package.json:
+This file is mandatory for every npm project. It contains basic information regarding the project (name, description, license, etc), commands which can be used, dependencies – these are packages required by the application to work correctly, 
+and dependencies – again the list of packages which are required for application however only during the development phase i.e.
+we need Angular CLI only during development to build a final package however for production we don’t use it anymore. We will discuss this file in detail in our upcoming articles.
