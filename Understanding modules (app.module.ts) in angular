@@ -1,3 +1,13 @@
 Read this article in URL 
 
 https://dotnettutorials.net/lesson/modules-angular-application/
+
+How to create a Module in Angular?
+Let say we want to create a module called Student. So, first, open the terminal console in visual studio code and then type ng g module student and press enter 
+
+Error Fixing
+
+ps1 cannot be loaded because running scripts is disabled on this system 
+
+In PowerShell as Administrator, you could try the following:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
