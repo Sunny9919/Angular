@@ -1,0 +1,8 @@
+Install Visual Studio Code
+Installing Node.js and npm
+In order to check the node and npm version that is installed on your computer, you need to type node -v and npm –v in the command prompt.
+Installing Typescript
+open the command prompt in administrator mode, then type npm install –g typescript command 
+Install Angular CLI
+npm install -g @angular/cli
+ In order to make sure whether you have installed the Angular CLI correctly or not, you need to use the ng v command. 
