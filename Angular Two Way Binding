@@ -1,0 +1,25 @@
+What is Angular Two Way Binding?
+The most popular and widely used data binding mechanism in Angular Application is two-way data binding. 
+The two-way data binding is basically used in the input type filed or any form element where the user type or provide any value or change any control value on the one side and on the other side,
+the same automatically updated into the component variables and vice-versa is also true.
+
+The two-way data binding in Angular is actually a combination of Property Binding and Event Binding. The Syntax is given below:
+
+<input [value] = ‘data 1’ (input) = ‘data = $event.target.value’>
+
+Example to understand Angular Two Way Data Binding:
+
+Let’s directly start with an example. First, modify the app.component.ts file as shown below.
+
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  template: `<div>
+              Name : <input [value]='Name'>
+              <br>
+              You entered : {{Name}}
+            </div>`
+})
+export class AppComponent {
+  Name: string = 'Anurag';
+}
