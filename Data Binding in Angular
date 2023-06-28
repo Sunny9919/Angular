@@ -1,0 +1,14 @@
+There are two types of Data binding available. They are as follows
+One-way Data Binding- where a change in the state affects the view (i.e. From Component to View Template) or change in the view affects the state (From View Template to Component).
+Two-way Data Binding- where a change from the view can also change the model and similarly change in the model can also change in the view (From Component to View Template and also From View template to Component).
+
+
+Examples of Angular Data Bindings:
+Interpolation
+Property Binding
+Attribute Binding
+Class Binding
+Style Binding
+Event Binding
+Two-way binding
+
