@@ -1,0 +1,55 @@
+What is Angular Interpolation?
+If you want to display the read-only data on a view template (i.e. From Component to the View Template), then you can use the one-way data binding technique i.e. the Angular interpolation.
+
+modify app.component.ts file.
+In order to understand Angular Interpolation binding, please have a look at the following image. Here, we have created two string variables 
+(FirstName and LastName) within the component (i.e. AppComponent) and initialize these two variables with some default values. 
+Then please focus on the template property of the @Component decorator. Here, the angular framework gets the value of the FirstName and LastName property from the component (i.e. AppComponent)
+and then inserts the FirstName and LastName value between the opening and closing <h1> element. 
+Here, we are using double curly braces to place to component properties and this is called Interpolation binding in Angular Application.
+
+app.component.ts 
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+    template: `<div>
+                    <h1> {{FirstName + ' ' + LastName}} </h1>                 
+               </div>`
+})
+
+export class AppComponent {
+  FirstName: string = 'Anurag';
+  LastName: string = 'Mohanty';
+}
+
+----------------------------------------------------------------------
+
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+    template: `<div>
+                    <h1> Full Name : {{ GetFullName() }} </h1>                 
+               </div>`
+})
+
+export class AppComponent {
+  FirstName : string = "Anurag";
+  LastName : string = "Mohantry";
+
+  GetFullName() : string{
+    return this.FirstName + ' ' + this.LastName;
+  }
+}
+
+-------------------------------------------
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+    template: `<div>
+                    <img src = {{ImagePath}} />                
+               </div>`
+})
+
+export class AppComponent {
+  ImagePath : string = "https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials.png";
+}
