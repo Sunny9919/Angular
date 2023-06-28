@@ -1,0 +1,7 @@
+Command for creating Component
+
+ng g component components/register
+
+Now it is the best part coming. Next we are going to install the material UI and implement the Angular Material UI.
+
+ng add @angular/material
