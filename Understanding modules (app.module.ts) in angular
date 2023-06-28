@@ -11,3 +11,12 @@ ps1 cannot be loaded because running scripts is disabled on this system
 
 In PowerShell as Administrator, you could try the following:
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+Understanding Decorators:
+Types of Decorators in Angular:
+In Angular, the Decorators are classified into 4 types. They are as follows:
+
+Class Decorators: @Component and @NgModule
+Property Decorators: @Input and @Output (These two decorators are used inside a class)
+Method Decorators: @HostListener (This decorator is used for methods inside a class like a click, mouse hover, etc.)
+Parameter Decorators: @Inject (This decorator is used inside class constructor).
