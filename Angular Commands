@@ -1,2 +1,8 @@
 //Create Angular Project
 ng new AngularAuthUI
+
+//start the Project
+ng serve -o
+
+//Create componets
+ng g c login
